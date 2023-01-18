@@ -1,7 +1,7 @@
 import React from 'react';
 
 const App = () => {
-  return <div>Raleigh Criterium</div>;
+  return <div>React Template</div>;
 };
 
 export default App;

@@ -1,1 +1,1 @@
-# Raleigh Criterium
+# React Template
