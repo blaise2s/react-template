@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "react-scripts build",
+    "commit": "yarn cz",
     "dev": "react-scripts start",
     "eject": "react-scripts eject",
     "start": "yarn serve -s build",
@@ -15,6 +16,8 @@
     "web-vitals": "^2.1.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -22,6 +25,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "commitizen": "^4.2.6",
     "eslint-config-prettier": "^8.6.0",
     "lint-staged": "^13.1.0",
     "prettier": "2.8.3",
@@ -31,6 +35,13 @@
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-standard": "^29.0.0",
     "typescript": "^4.4.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog",
+      "maxHeaderWidth": 72,
+      "maxLineWidth": 80
+    }
   },
   "eslintConfig": {
     "extends": [
