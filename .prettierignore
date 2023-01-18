@@ -1,3 +1,4 @@
+# If adding a line here add it to .stylelintignore as well
 node_modules
 build
 yarn.lock

@@ -7,6 +7,7 @@
     "commit": "yarn cz",
     "dev": "react-scripts start",
     "eject": "react-scripts eject",
+    "prepare": "husky install",
     "start": "yarn serve -s build",
     "test": "react-scripts test"
   },
@@ -27,6 +28,7 @@
     "@types/react-dom": "^18.0.0",
     "commitizen": "^4.2.6",
     "eslint-config-prettier": "^8.6.0",
+    "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
     "prettier": "2.8.3",
     "react-scripts": "5.0.1",
