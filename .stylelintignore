@@ -1,0 +1,4 @@
+# If adding a line here add it to .prettierignore as well
+node_modules
+build
+yarn.lock
