@@ -1,8 +1,5 @@
-import {
-  createBrowserRouter,
-  RouterProvider as ReactRouterDOMRouterProvider,
-  RouteObject,
-} from 'react-router-dom';
+import { createBrowserRouter, RouteObject } from 'react-router';
+import { RouterProvider as ReactRouterDOMRouterProvider } from 'react-router/dom';
 import { App } from '../App';
 
 const routes: RouteObject[] = [

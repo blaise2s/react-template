@@ -52,7 +52,7 @@ const RAW_RUNTIME_STATE =
           ["prettier-plugin-tailwindcss", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.6.9"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:18.3.1"],\
-          ["react-router-dom", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:7.0.1"],\
+          ["react-router", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:7.0.1"],\
           ["stylelint", "npm:16.10.0"],\
           ["stylelint-config-standard", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:36.0.1"],\
           ["tailwindcss", "npm:3.4.15"],\
@@ -4866,10 +4866,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:8a60780be19b303837ba243b9f71d8e52fc8c7a2a863214673a6ab8302b39dde4c4124c7743b675dda4e843d53dadddf3b32609473d158010a4f265cd104f9e7#npm:7.0.1", {\
-        "packageLocation": "./.yarn/__virtual__/react-router-virtual-4f8dcea46a/0/cache/react-router-npm-7.0.1-5f9672179e-aac4c9989a.zip/node_modules/react-router/",\
+      ["virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:7.0.1", {\
+        "packageLocation": "./.yarn/__virtual__/react-router-virtual-15aac724a0/0/cache/react-router-npm-7.0.1-5f9672179e-aac4c9989a.zip/node_modules/react-router/",\
         "packageDependencies": [\
-          ["react-router", "virtual:8a60780be19b303837ba243b9f71d8e52fc8c7a2a863214673a6ab8302b39dde4c4124c7743b675dda4e843d53dadddf3b32609473d158010a4f265cd104f9e7#npm:7.0.1"],\
+          ["react-router", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:7.0.1"],\
           ["@types/cookie", "npm:0.6.0"],\
           ["@types/react", "npm:18.3.12"],\
           ["@types/react-dom", "npm:18.3.1"],\
@@ -4878,33 +4878,6 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:18.3.1"],\
           ["set-cookie-parser", "npm:2.7.1"],\
           ["turbo-stream", "npm:2.4.0"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["react-router-dom", [\
-      ["npm:7.0.1", {\
-        "packageLocation": "./.yarn/cache/react-router-dom-npm-7.0.1-8c4f0d2710-aebc0af4ea.zip/node_modules/react-router-dom/",\
-        "packageDependencies": [\
-          ["react-router-dom", "npm:7.0.1"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:7.0.1", {\
-        "packageLocation": "./.yarn/__virtual__/react-router-dom-virtual-8a60780be1/0/cache/react-router-dom-npm-7.0.1-8c4f0d2710-aebc0af4ea.zip/node_modules/react-router-dom/",\
-        "packageDependencies": [\
-          ["react-router-dom", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:7.0.1"],\
-          ["@types/react", "npm:18.3.12"],\
-          ["@types/react-dom", "npm:18.3.1"],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:18.3.1"],\
-          ["react-router", "virtual:8a60780be19b303837ba243b9f71d8e52fc8c7a2a863214673a6ab8302b39dde4c4124c7743b675dda4e843d53dadddf3b32609473d158010a4f265cd104f9e7#npm:7.0.1"]\
         ],\
         "packagePeers": [\
           "@types/react-dom",\
@@ -4945,7 +4918,7 @@ const RAW_RUNTIME_STATE =
           ["prettier-plugin-tailwindcss", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.6.9"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:18.3.1"],\
-          ["react-router-dom", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:7.0.1"],\
+          ["react-router", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:7.0.1"],\
           ["stylelint", "npm:16.10.0"],\
           ["stylelint-config-standard", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:36.0.1"],\
           ["tailwindcss", "npm:3.4.15"],\
