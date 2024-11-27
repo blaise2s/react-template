@@ -46,7 +46,7 @@
     "typescript-eslint": "^8.16.0",
     "vite": "^6.0.1"
   },
-  "packageManager": "yarn@4.5.1",
+  "packageManager": "yarn@4.5.3",
   "lint-staged": {
     "*.{css,scss}": "stylelint --fix --allow-empty-input",
     "*.{ts,js,tsx,jsx}": "eslint --cache --fix --max-warnings 0",
