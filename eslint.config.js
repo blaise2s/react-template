@@ -11,9 +11,10 @@ export default tseslint.config(
     ignores: [
       'build',
       'coverage',
-      'dist',
-      '.yarn',
       '.husky',
+      '.vscode/',
+      '.yarn',
+      'dist',
       '.pnp.*',
       '*.d.ts',
     ],
